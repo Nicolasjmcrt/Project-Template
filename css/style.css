@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* GLOBAL CONFIGURATION */
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*******
+COMMON CLASSES 
+*********/
+
+/* Flex */
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.wrap {
+    flex-wrap: wrap; 
+}
+
+/* WIDTH */
+
+.w-100 {
+    width: 100%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+/* padding */
+
+.p-2 {
+    padding: 2rem;
+
+}
+
+.p-1 {
+    padding: 1rem;
+}
+
+.my-1 {
+    margin: 1rem 0;
+}
+
+.my-2 {
+    margin: 2rem 0;
+}
+/* background */
+
+
+
+/* color */
+
+.color-white {
+    color: white;
+}
+
+
+/* Shadows */
+
+.shadow-white {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(255,255,255, 0.3); 
+    box-shadow: 0px 0px 5px 0px rgba(255,255,255, 0.3);
+}
+
+
+/* ALIGN */
+
+.text-align {
+    text-align: center;
+}
+
+/* TEXT */
+
+.font-weight-bold{
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
